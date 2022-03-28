@@ -150,3 +150,95 @@ main{
 #channel , #plearn{
     color: #000016;
 }
+footer{
+    width: 100%;
+    min-height: 100px;
+    background-color: #3a6fc4;
+    display: flex;
+    justify-content: space-between;
+}
+#logfooter{
+    width: 50%;
+    line-height: 100px;
+    color: #f0f0f0;
+    font-size: 45px;
+}
+#coderaquarius{
+    color: #000016;
+    font-size: 30px;
+}
+#contact-footer{
+    color: #f0f0f0;
+    font-size: 35px
+}
+@media screen and (max-width: 1150px){
+    header{
+        height: 200px;
+    }
+    .header-left{
+        float: none;
+        width: 100%;
+    }
+    .header-right{
+        float: none;
+        width: 100%;
+    }
+    .divbtn span button{
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        margin-top: 25px;
+    }
+    .section-card{
+        display: block;
+        width: 100%;
+        padding: 0px;
+    }
+    .card{
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 0px !important;
+    }
+    footer{
+        height: 200px;
+        display: block;
+    }
+    #logfooter{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 710px){
+    header{
+        height: 300px;
+    }
+    .nav , .divbtn{
+        float: none;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .article-title{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 400px){
+    *{
+        font-size: 10px !important;
+        margin: 0px;
+        padding: 0px;
+    }
+    #contact , #contact-footer{
+        position: relative;
+        bottom: 25%;
+        left: 30%;
+    }
+    .nav li img{
+        width: 20px;
+        height: 20px;
+        margin-top:25px;
+        padding-left: 10px;
+    }
+    .card{
+       width: 80%;
+    }
+}

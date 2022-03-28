@@ -16,6 +16,8 @@ var channel = document.getElementById("channel");
 var plearn = document.getElementById("plearn");
 var english = document.getElementById("enbtn");
 var arabic = document.getElementById("arbtn");
+var logfooter = document.getElementById("logfooter");
+var contactfooter= document.getElementById("contact-footer");
 function arlang(){
     if(document.body.hasAttribute("dir","ltr")){
         document.body.setAttribute("dir","rtl");
@@ -36,6 +38,8 @@ function arlang(){
     articletitle2.innerHTML = `أفضل مصدر لتعلم اللغات:`;
     channel.innerHTML = `المبرمج شيار:`;
     plearn.innerHTML = `أفضل مصدر يمكنك متابعة الدروس من خلال قوائم التشغيل المنظمة وستصبح محترفًا`;
+    logfooter.innerHTML = ` تصميم <span id="coderaquarius">المبرمج أكواريوس</span>`;
+    contactfooter.innerHTML = `اتصل:`;
 }
 function enlang(){
 if(document.body.hasAttribute("dir","rtl")){
@@ -57,6 +61,8 @@ if(document.body.hasAttribute("dir","rtl")){
     articletitle2.innerHTML = `The best resource for learning languages:`;
     channel.innerHTML = `Coder Shiyar:`;
     plearn.innerHTML = `The best resource you can follow lessons with curated playlists and become a professional`;
+    logfooter.innerHTML = `Designed By <span id="coderaquarius"> Coder AQUARIUS </span>`;
+    contactfooter.innerHTML = `Contact:`;
 }
 english.onclick = ()=>{
     enlang();
